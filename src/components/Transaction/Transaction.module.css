@@ -1,0 +1,42 @@
+.transaction {
+    padding: 35px;
+}
+
+.transaction-card {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 582px;
+    border: 3px solid #111;
+}
+
+.transaction-list {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #111;
+}
+
+.transaction-type {
+    width: 190px;
+    color: black;
+}
+
+.transaction-amount {
+    width: 190px;
+    color: black;
+}
+
+.transaction-currency {
+    width: 190px;
+    color: black;
+}
+
+.transaction-tr:nth-child(even) {
+    background-color: #b0adad;
+}
+
+.transaction-tr:nth-child(odd) {
+    background-color: #ffffff;
+}
