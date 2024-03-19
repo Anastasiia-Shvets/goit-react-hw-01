@@ -1,15 +1,15 @@
-.friend-card{
+.friend-card {
     margin-bottom: 75px;
 }
 
-.friend{
+.friend {
     padding: 20px;
     margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    
+
 }
 
 .friend-item {
